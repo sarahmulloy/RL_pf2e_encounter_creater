@@ -1,0 +1,19 @@
+Cost,requirement,action,action type,trait,Description ,HP bonus,save effect,AC effect,target ac ,target saves,target effect,save roll,attack roll,range ,number die,damage die,additional damage,damage type,duration (round),cool down (round),crit success,crit failure
+1,x,move towards target,move,speed,20ft (4 squares),x,x,x,x,x,x,x,x,20,x,x,x,x,x,x,x,x
+1,x,move,move,speed,20ft (4 squares),x,x,x,x,x,x,x,x,20,x,x,x,x,x,x,x,x
+1,2 characters on 1 target,flank target,move,speed,20ft (4 squares); Target is off-guard (-2 AC),x,x,x,-2,-1,off-guard,x,x,20,x,x,x,x,x,x,x,x
+1,x,intimidating glare,buff,intimidation,Intimidation check v will = target frightened (-1 check/saves),x,x,x,x,-1,frightened,will,x,30,x,x,x,x,1,x,x,x
+1,x,switch weapons,other,,switch out weapons,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+1,armed,Greataxe attack (first),melee,strength,x,x,x,x,x,x,x,x,8,x,1,12,4.00,S,x,x,double attack,x
+1,armed,Greataxe attack (second),melee,strength,x,x,x,x,x,x,x,x,3,x,1,12,4.00,S,x,x,double attack,x
+1,armed,Greataxe attack (third),melee,strength,x,x,x,x,x,x,x,x,-2,x,1,12,4.00,S,x,x,double attack,x
+1,armed,Dagger attack (first),melee,strength,x,x,x,x,x,x,x,x,8,x,1,4,4.00,P,x,x,double attack,x
+1,armed,Dagger attack (second),melee,strength,x,x,x,x,x,x,x,x,4,x,1,4,4.00,P,x,x,double attack,x
+1,armed,Dagger attack (third),melee,strength,x,x,x,x,x,x,x,x,0,x,1,4,4.00,P,x,x,double attack,x
+1,armed,Throw Dagger attack (first),range,strength,x,x,x,x,x,x,x,x,8,10,1,4,4.00,P,x,x,double attack,x
+1,armed,Throw Dagger attack (second),range,strength,x,x,x,x,x,x,x,x,4,10,1,4,4.00,P,x,x,double attack,x
+1,armed,Throw Dagger attack (third),range,strength,x,x,x,x,x,x,x,x,0,10,1,4,4.00,P,x,x,double attack,x
+2,attack,Intimidating Strike,buff,strength, hit and deal damage = target frightened (-1 checks/saves),x,x,x,x,-1,frightened,x,x,x,x,x,x,x,1,x,x,x
+1,x,Rage,buff,none,Gain exttra HP and deal more damage,5,,x,x,x,x,x,x,x,x,x,2.00,x,10,10,x,x
+0,save throw,Call on ancient blood,reaction,none,trigger- save throw vs magic before rolling = +1 bonus to save throws,x,1,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+1,initative,quick-tempered,buff,none,rage with initative ,5,,x,x,x,x,x,x,x,x,x,2.00,x,10,10,x,x
