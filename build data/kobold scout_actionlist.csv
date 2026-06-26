@@ -1,16 +1,12 @@
-Cost,requirement,action,action type,trait,Description ,HP bonus,save effect,AC effect,target ac ,target saves,target effect,save roll,attack roll,range ,number die,damage die,additional damage,damage type,duration (round),cool down (round),crit success,crit failure
-1,,move towards target,movement,speed,25ft (5 squares),x,x,x,x,x,x,x,x,25,x,x,x,x,x,x,,
-1,,move away from target,movement,speed,25ft (5 squares),x,x,x,x,x,x,x,x,25,x,x,x,x,x,x,,
-1,2 creature 1 character,flank target,movement,speed,25ft (5 squares); Target is off-guard (-2 AC),x,x,x,-2,,off-guard,x,x,25,x,x,x,x,x,x,,
-1,,Demoralize,buff,intimidation,Intimidation check v will = target frightened (-1 check/saves),x,x,x,x,-1,frightened,will,x,30,x,x,x,x,x,x,,
-1,,switch weapons,non-attack,,switch out weapons,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,,
-1,first attack,shortsword (first),melee,strength,,x,x,x,x,x,x,x,9,x,1,6,0,P,x,x,,
-1,second attack,shortsword (second),melee,strength,,x,x,x,x,x,x,x,5,x,1,6,0,P,x,x,,
-1,third attack,shortsword (third),melee,strength,,x,x,x,x,x,x,x,1,x,1,6,0,P,x,x,,
-1,first attack,crossbow (first),range,strength,,x,x,x,x,x,x,x,9,30,1,8,0,P,x,x,,
-1,third attack,crossbow (second),range,strength,,x,x,x,x,x,x,x,4,30,1,8,0,P,x,x,,
-1,second attack,reload crossbow,range,strength,reload crossbow between attacks,x,x,x,x,x,x,x,x,x,x,x,0,x,x,x,,
-3,,construct trap,buff,manipulate,builds trap = target moves next to it takes damage,x,x,x,x,x,x,reflex,x,5,1,6,x,x,x,x,,
-1,next to 1 target,scamper,buff ,speed,next to enemy = strides away up to 30 ft and +2 AC against reactions,x,x,2,x,x,x,x,x,30,x,x,x,x,x,x,,
-1,target off-guard,sneak attack shortsword,melee,strength,deals more damage to off-guard target,x,x,x,x,x,x,x,9,x,1,12,0,x,x,x,,
-1,target off-guard,sneak attack crossbow,melee,strength,deals more damage to off-guard target,x,x,x,x,x,x,x,9,120,1,12,0,x,x,x,,
+Cost,action requirment,condition requirement,action,action type,trait,Description ,range ,HP bonus,save effect,AC effect,player condition,target ac effect,target save effect,target condition,save roll type,save roll mod,attack roll mod,number die,damage die,additional damage,additional die type,damage type,duration (round),cool down (round),crit success
+1,0,0,move towards target,movement,speed,25ft (5 squares),25,,,,,,,,,0,0,0,0,0,0,0,0,0,0
+1,0,0,move away from target,movement,speed,25ft (5 squares),25,,,,,,,,,0,0,0,0,0,0,0,0,0,0
+1,0,0,flank target,movement,speed,25ft (5 squares); Target is off-guard (-2 AC),25,,,,,-2,,off-guard,,0,0,0,0,0,0,0,0,0,0
+1,1,0,shortsword (first),melee,strength,,5,,,,,,,,,0,9,1,6,0,0,piercing,0,0,double
+1,2,0,shortsword (second),melee,strength,,5,,,,,,,,,0,5,1,6,0,0,piercing,0,0,double
+1,3,0,shortsword (third),melee,strength,,5,,,,,,,,,0,1,1,6,0,0,piercing,0,0,double
+1,1,0,crossbow (first),range,strength,,30,,,,,,,,,0,9,1,8,0,0,piercing,0,0,double
+2,3,0,crossbow (second),range,strength,reload between attacks,30,,,,,,,,,0,4,1,8,0,0,piercing,0,0,double
+1,0,0,scamper,buff ,speed,next to enemy = strides away up to 30 ft and +2 AC against reactions,30,,,2,,,,,,0,0,0,0,0,0,0,0,0,0
+1,1,off-guard,sneak attack shortsword,melee,strength,deals more damage to off-guard target,5,,,,,,,,,0,9,1,6,0,6,piercing,0,0,double
+1,1,off-guard,sneak attack crossbow,melee,strength,deals more damage to off-guard target,120,,,,,,,,,0,9,1,6,0,6,piercing,0,0,double
